@@ -1,0 +1,105 @@
+# Employee & Department Salary Analysis — SQL
+
+## Project Overview
+
+This project uses MySQL to analyze employee and department data, with a focus on employee headcount, department-wise salary analysis, salary expenses, employee rankings, and salary comparisons.
+
+## Business Objectives
+
+The analysis was performed to understand:
+
+- Total number of employees
+- Employee count by department
+- Average salary by department
+- Highest and lowest salary by department
+- Total salary expense by department
+- Employees with salaries above their department average
+- Highest-paid employees
+- Top employees within each department
+- Departments with the highest average salary
+- Departments with the highest total salary expense
+
+## Analysis Performed
+
+The project contains 15 SQL analysis questions covering:
+
+1. Total employee count
+2. Employee count by department
+3. Average salary by department
+4. Highest salary by department
+5. Lowest salary by department
+6. Total salary expense by department
+7. Department salary expense and average salary
+8. Departments above the overall average salary
+9. Top 3 highest-paid employees
+10. Top 3 employees in each department
+11. Employee salary compared with department average
+12. Employees earning above their department average
+13. Department with the highest average salary
+14. Department with the highest total salary expense
+15. Top 5 employees earning above their department average
+
+## SQL Concepts Used
+
+- SELECT
+- COUNT()
+- AVG()
+- SUM()
+- MIN()
+- MAX()
+- ROUND()
+- JOIN
+- LEFT JOIN
+- GROUP BY
+- HAVING
+- ORDER BY
+- LIMIT
+- Subqueries
+- CTE (Common Table Expression)
+- Window Functions
+- DENSE_RANK()
+- AVG() OVER(PARTITION BY)
+
+## Employee Analysis
+
+The project analyzes:
+
+- Overall employee headcount
+- Highest-paid employees
+- Employees earning above their department average
+- Individual salary difference from department average
+- Top 3 employees within each department
+- Top 5 employees above department average
+
+## Department Salary Analysis
+
+The project analyzes:
+
+- Department-wise employee count
+- Average salary
+- Highest salary
+- Lowest salary
+- Total salary expense
+- Departments above overall average salary
+- Department with the highest average salary
+- Department with the highest total salary expense
+
+## Advanced SQL Analysis
+
+Advanced SQL techniques were used for:
+
+- Finding top employees within each department using `DENSE_RANK()`
+- Comparing employee salary with department average using window functions
+- Finding employees above their department average using correlated subqueries
+- Using a CTE to calculate department average salary and identify higher-paid employees
+
+## Project File
+
+The complete SQL analysis containing all 15 business questions and queries is available in:
+
+`Employee_Department_SQL_Analysis.sql`
+
+## Tool Used
+
+- MySQL
+- SQL
